@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_connect"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="30dp"
+            android:text="@string/printer_controller_btn_disconnect"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_printest"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_printest"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_printreset"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_printreset"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/sp_language"
+        android:layout_width="150dp"
+        android:layout_height="60dip"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_clear"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_printdata"
+            android:layout_width="400dp"
+            android:layout_height="70dip"
+            android:layout_marginLeft="30dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:inputType="none" />
+
+        <Button
+            android:id="@+id/btn_print"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="30dp"
+            android:text="@string/printer_controller_btn_print"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ticket"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp" 
+            android:text="@string/printer_controller_btn_ticket"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_imagae"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_imagae"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_stringtocode"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_stringtocode"
+            android:textSize="20sp" />
+       <Button
+            android:id="@+id/btn_cut"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_cut"
+            android:textSize="20sp" /> 
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_TakeThePaper"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_takethepaper"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_Gray"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_gray"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_FontNormalmode"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_fontnormalmode"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_FontItalics"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:visibility="gone"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_fontitalics"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_FontBold"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:layout_marginLeft="18dp"
+            android:text="@string/printer_controller_btn_fontbold"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_FontDoublewidth"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_fontdoublewidth"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_FontTimes"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_fonttimes"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_FontUnderline"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_fontunderline"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_SetRight"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_setright"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_SetLeft"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_setleft"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_SetCenter"
+            android:layout_width="170dip"
+            android:layout_height="70dip"
+            android:text="@string/printer_controller_btn_setcenter"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

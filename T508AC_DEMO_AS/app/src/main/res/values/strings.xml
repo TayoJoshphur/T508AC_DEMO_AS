@@ -1,0 +1,309 @@
+<resources>
+
+    <string name="app_name">T508AC_DEMO_V6.0</string>
+
+    <!-- buzzer_controller -->
+    <string name="buzzer_controller_label">Buzzer</string>
+    <string name="buzzer_btn_open">Open</string>
+    <string name="buzzer_btn_close">Close</string>
+
+    <!-- laserlight_controller -->
+    <string name="laserlight_controller_label">Laserlight</string>
+    <string name="laserlight_btn_open">Open</string>
+    <string name="laserlight_btn_close">Close</string>
+
+    <!-- cashbox_controller -->
+    <string name="cashbox_controller_label">Cashbox</string>
+    <string name="cashbox_btn_controller">Controller</string>
+
+    <!-- rs232_controller -->
+    <string name="rs232_controller_label">RS232</string>
+    <string name="rs232_controller_filetv">file</string>
+    <string name="rs232_controller_baudtv">baud</string>
+    <string name="rs232_controller_bitstv">bits</string>
+    <string name="rs232_controller_eventtv">event</string>
+    <string name="rs232_controller_stopbitstv">stopbits</string>
+    <string name="rs232_controller_btn_connect">connect</string>
+    <string name="rs232_controller_btn_disconnect">disconnect</string>
+    <string name="rs232_controller_writetv">writedata</string>
+    <string name="rs232_controller_readtv">readdata</string>
+    <string name="rs232_controller_btn_send">send</string>
+    <string name="rs232_controller_btn_clean">clean</string>
+    <!-- idcard_controller -->
+    <string name="idcard_controller_label">IDcard</string>
+    <string name="idcard_controller_btn_connect">Connect</string>
+    <string name="idcard_controller_btn_stop">Stop</string>
+    <string name="idcard_controller_btn_readcard">Readcard Once</string>
+    <string name="idcard_controller_btn_readcard_2">Readcard Continue</string>
+    <string name="idcard_controller_btn_disconnect">Disconnect</string>
+    <string name="idcard_controller_btn_clear">Clear</string>
+    <string name="idcard_controller_tv_name">name:</string>
+    <string name="idcard_controller_tv_sex">sex:</string>
+    <string name="idcard_controller_tv_ethnic">ethnic:</string>
+    <string name="idcard_controller_tv_birth">birth:</string>
+    <string name="idcard_controller_tv_address">address:</string>
+    <string name="idcard_controller_tv_idnumber">idnumber:</string>
+    <string name="idcard_controller_tv_authority">authority:</string>
+    <string name="idcard_controller_tv_period">period:</string>
+    <string name="sdtstatus">status:</string>
+    <string name="idcard_count">Count:</string>
+    <string name="idcard_count_success">Success:</string>
+    <string name="idcard_count_failed">Failed:</string>
+
+    <!-- iccard_controller -->
+    <string name="iccard_controller_label">ICcard</string>
+    <string name="iccard_controller_btn_connect">connect</string>
+    <string name="iccard_controller_btn_disconnect">disconnect</string>
+    <string name="iccard_controller_btn_ic">IC</string>
+    <string name="iccard_controller_btn_at24">AT24</string>
+    <string name="iccard_controller_btn_sle">SLE</string>
+    <string name="iccard_controller_btn_version">Version</string>
+    <string name="iccard_controller_ic_btn_reset">reset</string>
+    <string name="iccard_controller_ic_btn_icoff">icoff</string>
+    <string name="iccard_controller_ic_btn_read">read</string>
+    <string name="iccard_controller_at24_btn_reset">reset</string>
+    <string name="iccard_controller_at24_btn_write">write</string>
+    <string name="iccard_controller_at24_btn_read">read</string>
+    <string name="iccard_controller_ic_tv_label">ic</string>
+    <string name="iccard_controller_at24_tv_label">at24</string>
+    <string name="iccard_controller_sle_tv_label">sle</string>
+    <string name="iccard_controller_sle_btn_init">init</string>
+    <string name="iccard_controller_sle_btn_write">write</string>
+    <string name="iccard_controller_sle_btn_read">read</string>
+    <string name="iccard_controller_sle_btn_checkpassword">checkpassword</string>
+    <string name="iccard_controller_sle_btn_readspassword">readspassword</string>
+    <string name="iccard_controller_sle_btn_rewritepassword">rewritepassword</string>
+    <string name="iccard_controller_sle_btn_readspasswordcounter">readspasswordcounter</string>
+    <string name="iccard_controller_sle_btn_readflag">readflag</string>
+    <string name="iccard_controller_sle_btn_protectiondata">protectiondata</string>
+    <string name="iccard_controller_sle_tv">~</string>
+
+    <!-- pinpad_controller -->
+    <string name="pinpad_controller_label">Pinpad</string>
+    <string name="pinpad_controller_btn_connect">connect</string>
+    <string name="pinpad_controller_btn_disconnect">disconnect</string>
+    <string name="pinpad_controller_btn_send">send</string>
+    <string name="pinpad_controller_btn_recv">enter password</string>
+    <string name="pinpad_controller_btn_clear">clear</string>
+    <string name="pinpad_controller_tv_version">version</string>
+    <string name="pinpad_controller_init">Initialization</string>
+    <string name="pinpad_controllerN20">N20</string>
+    <string name="pinpad_controllerSP10">SP10</string>
+    <string name="pinpad_controller_inits">Restore factory settings successfully</string>
+    <!-- psam_controller -->
+    <string name="psam_controller_label">PSAM</string>
+    <string name="psam_controller_ttyS0">ttyS0</string>
+    <string name="psam_controller_ttyS1">ttyS1(Default)</string>
+    <string name="psam_controller_ttyS2">ttyS2</string>
+    <string name="psam_controller_ttyS3">ttyS3</string>
+    <string name="psam_controller_btn_connect">connect</string>
+    <string name="psam_controller_btn_disconnect">disconnect</string>
+    <string name="psam_controller_btn_reset">reset</string>
+    <string name="psam_controller_btn_random">random</string>
+    <string name="psam_controller_btn_send">send</string>
+    <string name="psam_controller_btn_read">read</string>
+    <string name="psam_controller_tv_psam1">psam1</string>
+    <string name="psam_controller_tv_psam2">psam2</string>
+    <string name="psam_controller_tv_hz">Frequency</string>
+    <string name="psam_controller_btn_hz">SetFrequency</string>
+    <string name="fingerprintre_string_reset_success">Reset success!</string>
+    <string name="psam_controller_et_send">00,84,00,00,04</string>
+    <!-- nfc_controller -->
+    <string name="nfc_controller_label">NFC</string>
+    <string name="nfc_controller_tv_cardtype">cardtype:</string>
+    <string name="nfc_controller_tv_readdata">readdata:</string>
+    <string name="nfc_controller_tv_cardid">cardid:</string>
+    <string name="nfc_controller_tv_s50s70">s50/s70</string>
+    <string name="nfc_controller_btn_write">write</string>
+    <string name="nfc_controller_btn_read">read</string>
+    <string name="nfc_device_not_support">Device Not Support NFC</string>
+    <string name="nfc_not_open_go_open">NFC is closed,go open it</string>
+    <string name="nfc_not_open">NFC Not Open</string>
+    <string name="nfc_card_type">Card Type:</string>
+    <string name="nfc_card_number">Card Id:</string>
+    <string name="nfc_card_info">Card Info:</string>
+    <string name="nfc_operate_fan">Section Oprating:</string>
+    <string name="yes">Yes</string>
+    <string name="nfc_section_key">Section Key:</string>
+    <string name="nfc_read_section_data">Read Setcion Data</string>
+    <string name="nfc_data_readed">Card Info:</string>
+    <string name="nfc_data_writting">Data being Written:</string>
+    <string name="nfc_write_section_data">Write Section Data</string>
+    <string name="nfc_max_command_len">MaxCommandLength:</string>
+    <string name="nfc_manu">Manufacturer:</string>
+    <string name="nfc_prof">ProtocolInfo:</string>
+    <string name="nfc_block_count">BlockCount:</string>
+    <string name="nfc_szt_money">Money:</string>
+    <!-- printer_controller -->
+    <string name="printer_controller_label">printer</string>
+    <string name="printer_controller_btn_connect">Connect</string>
+    <string name="printer_controller_btn_disconnect">Disconnect</string>
+    <string name="printer_controller_btn_clear">Clear</string>
+    <string name="printer_controller_btn_print">Print</string>
+    <string name="printer_controller_btn_printest">printest</string>
+    <string name="printer_controller_btn_printreset">reset</string>
+    <string name="printer_controller_btn_takethepaper">TakeThePaper</string>
+    <string name="printer_controller_btn_gray">Gray</string>
+    <string name="printer_controller_btn_fontnormalmode">FontNormalmode</string>
+    <string name="printer_controller_btn_fontitalics">FontItalics</string>
+    <string name="printer_controller_btn_fontbold">FontBold</string>
+    <string name="printer_controller_btn_fontdoublewidth">FontDoublewidth</string>
+    <string name="printer_controller_btn_fonttimes">FontTimes</string>
+    <string name="printer_controller_btn_fontunderline">FontUnderline</string>
+    <string name="printer_controller_btn_setright">SetRight</string>
+    <string name="printer_controller_btn_setleft">SetLeft</string>
+    <string name="printer_controller_btn_setcenter">SetCenter</string>
+    <string name="printer_controller_btn_ticket">Ticket</string>
+    <string name="printer_controller_btn_imagae">Imagae</string>
+    <string name="printer_controller_btn_code">Code</string>
+    <string name="printer_controller_btn_stringtocode">Stringtocode</string>
+    <string name="printer_controller_btn_cut">Cut</string>
+    <string name="printer_controller_stringtocode">Please type the characters</string>
+
+    <!-- magneticcard_controller -->
+    <string name="magneticcard_controller_label">Magneticcard</string>
+    <string name="magneticcard_controller_btn_connect">connect</string>
+    <string name="magneticcard_controller_btn_disconnect">disconnect</string>
+    <string name="magneticcard_controller_rd_disencryptionmode">disencryption</string>
+    <string name="magneticcard_controller_rd_encryptionmode">encryption</string>
+    <string name="magneticcard_controller_btn_clear">clear</string>
+    <!-- fingerprintrecognition_controller -->
+    <string name="fingerprintrecognition_controller_label">Fingerprintrecognition</string>
+    <string name="fingerprintrecognition_controller_btn_connect">connect</string>
+    <string name="fingerprintrecognition_controller_btn_disconnect">disconnect</string>
+    <string name="fingerprintrecognition_controller_btn_fingerreset">reset</string>
+    <string name="fingerprintrecognition_controller_btn_fingerprintrecord">fingerprintrecord</string>
+    <string name="fingerprintrecognition_controller_btn_fingerprintquery">fingerprintquery</string>
+    <string name="fingerprintrecognition_controller_tv_result">result:</string>
+    <string name="fingerprintrecognition_controller_tv_information">information</string>
+    <string name="fingerprintrecognition_controller_btn_delete">delete</string>
+    <string name="fingerprintrecognition_controller_btn_clear">clear</string>
+    <string name="fingerprintre_string_finger">Keep your finger on the fingerprint collection area.......</string>
+    <string name="fingerprintre_string_wait">Gathering Please wait .....!</string>
+    <string name="fingerprintre_string_recognition_success">Fingerprint recognition success!</string>
+    <string name="fingerprintre_string_fingerprint_failed">Fingerprint failed!</string>
+    <string name="fingerprintre_string_reset_failed">Reset failed!</string>
+    <string name="fingerprintre_string_input_success">Fingerprint input success!</string>
+    <string name="fingerprintre_string_input_failed">Fingerprint input failed!</string>
+    <string name="fingerprintre_string_empty_success">Empty fingerprint success!</string>
+    <string name="fingerprintre_string_empty_failed">Empty fingerprint failed!</string>
+    <string name="fingerprintre_string_deleted_successfully">Fingerprint deleted successfully!</string>
+    <string name="fingerprintre_string_deletion_failed">Fingerprint deletion failed!</string>
+    <string name="fingerprintre_string_existed">Fingerprint existed!</string>
+    <string name="fingerprintre_string_full">Fingerprint full!</string>
+    <string name="CMD_RT_OK">Instruction is finished or OK</string>
+    <string name="CMD_RT_PACKGE_ERR">Packet reception error,Please re-operation</string>
+    <string name="CMD_RT_DEVICE_ADDRESS_ERR">Device address error,Please re-operation</string>
+    <string name="CMD_RT_COM_PASSWORD_ERR">Communication password error,Please re-operation</string>
+    <string name="CMD_RT_NO_FINGER">No finger on the sensor,Please re-operation</string>
+    <string name="CMD_RT_GET_IMAGE_FAILE">Failed to obtain the image from the sensor,Please re-operation</string>
+    <string name="CMD_RT_GEN_CHAR_ERR">Failed to generate feature,Please re-operation</string>
+    <string name="CMD_RT_FINGER_MATCH_ERR">Fingerprints do not match,Please re-operation</string>
+    <string name="CMD_RT_FINGER_SEARCH_FAILE">No fingerprint search,Please re-operation</string>
+    <string name="CMD_RT_MERGE_TEMPLET_FAILE">Characteristics of the merger failure,Please re-operation</string>
+    <string name="CMD_RT_ADDRESS_OVERFLOW">The template memory bank address number range beyond the fingerprint database,Please re-operation</string>
+    <string name="CMD_RT_READ_TEMPLET_ERR">Error reading from the fingerprint template library,Please re-operation</string>
+    <string name="CMD_RT_UP_TEMPLET_ERR">Upload feature failed,Please re-operation</string>
+    <string name="CMD_RT_UP_IMAGE_FAILE">Upload your image failure,Please re-operation</string>
+    <string name="CMD_RT_DELETE_TEMPLET_ERR">Remove Templates failure,Please re-operation</string>
+    <string name="CMD_RT_CLEAR_TEMPLET_LIB_ERR">Empty fingerprint database fails,Please re-operation</string>
+    <string name="CMD_RT_FINGER_NOT_MOVE">Residual fingerprint sensor window or press the finger did not move for a long time,Please re-operation</string>
+    <string name="CMD_RT_NO_TEMPLET_IN_ADDRESS">Specified location without a valid template,Please re-operation</string>
+    <string name="CMD_RT_CHAR_REPEAT">Fingerprint repeat, need to register fingerprints are already registered in FLASH,Please re-operation</string>
+    <string name="CMD_RT_MB_NOT_EXIST_IN_ADDRESS">This address does not exist in the fingerprint template,Please re-operation</string>
+    <string name="CMD_RT_GET_MBINDEX_OVERFLOW">Get template index length overflow,Please re-operation</string>
+    <string name="finger_br">BR6211</string>
+    <string name="finger_za">ZAZ010</string>
+    <string name="action_prot_1">Prot 1</string>
+    <string name="action_prot_2">Prot 3</string>
+    <!-- capture_controller -->
+    <string name="capture_controller_label">capture</string>
+    <!--  -->
+    <string name="closeBluetooth">Close Bluetooth</string>
+    <string name="openBluetooth">Open Bluetooth</string>
+    <string name="dincr">Device is not connected, reconnect!</string>
+    <string name="Bluetooth">Bluetooth Print</string>
+    <string name="Paired_devices">Paired devices</string>
+    <string name="Unpaired_devices">Unpaired devices</string>
+    <string name="Search_Equipment">Search Equipment</string>
+    <string name="quit">Quit</string>
+    <string name="cf">Connection Failed !</string>
+    <string name="cs">connection successful !</string>
+    <string name="print">Print</string>
+    <string name="command">Command</string>
+    <string name="scf">Set command failed</string>
+    <string name="sf">Send failure</string>
+    <string name="psi">Please select instruction</string>
+    <string name="Please_wait">Please wait ...</string>
+    <string name="Search">Search for Bluetooth devices ...</string>
+    <string name="action_read_write">Read/Write S50/S70 Card</string>
+    <string name="hint_hex_3_byte">HEX, 3 bytes</string>
+    <string name="hint_hex_00">00</string>
+    <string name="hint_int_423">e.g. 423</string>
+    <string name="info_success">Success</string>
+    <string name="info_failed">Faild</string>
+    <string name="info_validation_success">Validation Succeeds</string>
+    <string name="info_validation_failed">Validation Failed</string>
+    <string name="nfc_background_support">Open NFC in Background</string>
+    <string name="nfc_block_read">Read Block</string>
+    <string name="nfc_block_write">Write Block</string>
+    <string name="nfc_lose_connect">the nfc lose connect , please touch again</string>
+    <string name="info_no_tag_found">Error: There is no Mifare Classic tag</string>
+    <string name="nfc_put_card_again">Please Put Card Again</string>
+    <string name="info_not_hex_data">Error: Data must be in hexadecimal
+        (0-9 and A-F)</string>
+    <string name="info_not_16_byte">Error: Data must be 16 bytes
+        (32 characters) long</string>
+    <string name="hint_hex_16_byte">HEX, 16 bytes (e.g. 0A4F&#8230;)</string>
+    <string name="uhf_read">Read</string>
+    <string name="uhf_write">Write</string>
+    <string name="action_type">printer type</string>
+    <string name="action_bluetooth">bluetooth</string>
+    <string name="action_serialport">Thermal printing</string>
+    <string name="action_photo">code image</string>
+    <string name="action_capture">Scan code</string>
+    <string name="printer_printest">"\t    80mm thermal printer\n\nBaud rate:115200\nData bits:8\nStop bit:1\nParity check:N\n\nThe unicode character set J001(D) Version:V1.0"</string>
+
+    <!-- LED -->
+    <string name="led_led">LED Display</string>
+    <string name="led_show_number">Show Number</string>
+    <string name="led_input_hint">Please input number······</string>
+
+    <!-- Scan -->
+    <string name="capture_hint">Scanning electron device, please send electronic device screen brightness to the brightest</string>
+    <string name="scan_hint">Scanning electron devices, please send electron devices screen brightness to the brightest</string>
+    <string name="scan_controller_label">Scan</string>
+    <string name="ts">Less than sweep data, please align data need to be scanned!</string>
+    <string name="scan">Scanning</string>
+    <string name="clean">Clear</string>
+    <string name="scan_one">Scanning Once</string>
+    <string name="scan_stop_one">Stop Scanning</string>
+    <string name="scan_continue">Continuous Scanning</string>
+    <string name="scan_stop_continue">Stop continuous scanning</string>
+    <string name="n">Internal bowl camera lighting control</string>
+    <string name="j">Laser light control</string>
+    <string name="scan_init_failure_info">Scanner init failured , Please Retry!</string>
+
+    <string name="msr_version">version:</string>
+    <string name="pinpad_controller_bt_amountprompt">Pls input amount</string>
+
+    <!-- Vanstone V10 -->
+    <string name="device_power_up">Power-on</string>
+    <string name="device_connect">Connect</string>
+    <string name="display_string">Display Strings</string>
+    <string name="clear_string">Clear Screen</string>
+    <string name="get_pin_content">Get Plain Password</string>
+    <string name="get_encrypt_pin_content">Get Encryption Password</string>
+    <string name="power_off">Disconnect</string>
+    <string name="vanstone_v10_tips">You should click CONNECT Button first!</string>
+
+    <!-- FingerPrint Activity -->
+    <string name="finger_controller_label">FingerScan</string>
+    <string name="finger_fp">FPS</string>
+
+    <string name="todo">TODO</string>
+    <string name="welcome">Welcome</string>
+    <string name="umar_kalu_lawal">UMAR KALU LAWAL</string>
+    <string name="scan_your_fingerprint_to_verify_it_is_you">Scan your <strong>Fingerprint</strong> to verify it is you</string>
+    <string name="processing_you_fingerprint"><b>Please wait ...</b>\n processing you fingerprint</string>
+</resources>

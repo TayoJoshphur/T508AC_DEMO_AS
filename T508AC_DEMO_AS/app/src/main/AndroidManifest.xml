@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jepower.com.t508ac_demo">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.POS.apis.FingerprintController.Dashboard"></activity>
+        <activity android:name="com.POS.apis.ApiDemosMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.POS.apis.FingerprintController.FingerPrintScanActivity"
+            android:label="@string/finger_controller_label" />
+        <activity
+            android:name="com.POS.apis.BuzzerController.BuzzerControllerActivity"
+            android:label="@string/buzzer_controller_label" />
+        <activity
+            android:name="com.POS.apis.CashboxController.CashboxControllerActivity"
+            android:label="@string/cashbox_controller_label" />
+        <activity
+            android:name="com.POS.apis.LaserlightController.LaserlightControllerActivity"
+            android:label="@string/laserlight_controller_label" />
+        <activity
+            android:name="com.POS.apis.RS232Controller.RS232ControllerActivity"
+            android:label="@string/rs232_controller_label" />
+        <activity
+            android:name="com.POS.apis.ICcardController.ICcardControllerActivity"
+            android:label="@string/iccard_controller_label" />
+        <activity
+            android:name="com.POS.apis.IDcardController.IDcardControllerActivity"
+            android:label="@string/idcard_controller_label" />
+        <activity
+            android:name="com.POS.apis.PINPadController.N20PINPadControllerActivity"
+            android:label="@string/pinpad_controller_label" />
+        <activity
+            android:name="com.POS.apis.PINPadController.PP300PinPadControllerActivity"
+            android:label="@string/pinpad_controller_label" />
+        <activity
+            android:name="com.POS.apis.PINPadController.SP10PINPadControllerActivity"
+            android:label="@string/pinpad_controller_label" />
+        <activity
+            android:name="com.POS.apis.PSAMController.PSAMControllerActivity"
+            android:label="@string/psam_controller_label" />
+        <activity
+            android:name="com.POS.apis.NFCController.NFCControllerActivity"
+            android:label="@string/nfc_controller_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_LOST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.POS.apis.NFCController.NfcReadWriteActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_DISCOVERED" />
+                <action android:name="android.nfc.action.TAG_LOST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name="com.POS.apis.PrinterController.PrinterControllerActivity"
+            android:label="@string/printer_controller_label" />
+        <activity
+            android:name="com.POS.apis.PrinterBluetooth.BluetoothActivity"
+            android:label="@string/printer_controller_label" />
+        <activity
+            android:name="com.POS.apis.PrinterBluetooth.PrintDataActivity"
+            android:label="@string/printer_controller_label" />
+        <activity
+            android:name="com.POS.apis.MagnetCardController.MagnetCardControllerActivity"
+            android:label="@string/magneticcard_controller_label"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.POS.apis.ScanController.ScanActivity"
+            android:label="@string/scan_controller_label" />
+        <activity
+            android:name="com.POS.apis.FingerprintController.BRFingerprintControllerActivity"
+            android:label="@string/fingerprintrecognition_controller_label" />
+        <activity
+            android:name="com.POS.apis.CaptureController.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/capture_controller_label"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.POS.apis.CaptureController.ResultActivity"
+            android:label="@string/capture_controller_label" />
+        <activity android:name="com.POS.apis.CaptureController.ResultPhotoActivity" />
+        <activity android:name="com.POS.apis.LedControllers.LedControllerActivity" />
+        <activity
+            android:name="com.POS.apis.FingerprintController.ZAFingerprintControllerActivity"
+            android:label="@string/fingerprintrecognition_controller_label" />
+        <activity
+            android:name="com.POS.apis.PINPadController.VanstoneV10Activity"
+            android:label="@string/pinpad_controller_label" />
+
+        <service
+            android:name="com.synjones.idcard.RemoteDecodeService"
+            android:process=":remote" />
+        <service android:name="com.POS.apis.ScanController.ScanService" />
+
+        <receiver android:name="com.POS.apis.ScanController.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="ScanServiceDestroy" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

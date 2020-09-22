@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_idcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_idcard" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_pinpad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_pinpad" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_buzzer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_buzzer" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_magneticcard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_magneticcard" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_psam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_psam" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_fingerprintrecognition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_fingerprintrecognition" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_nfc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_nfc" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_cashbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_cashbox" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_rs232"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_rs232" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.POSD.Win8View.Win8View
+                android:id="@+id/wv_laserlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="matrix"
+                android:src="@drawable/wv_laserlight"
+                android:visibility="gone" />
+
+            <com.POSD.Win8View.Win8View
+                android:id="@+id/wv_led"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="matrix"
+                android:src="@drawable/wv_led" />
+        </FrameLayout>
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_two_scan"
+            android:visibility="gone" />
+        
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_iccard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_iccard" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_printer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_printer_l" />
+
+        <com.POSD.Win8View.Win8View
+            android:id="@+id/wv_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:scaleType="matrix"
+            android:src="@drawable/wv_capture"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

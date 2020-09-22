@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/T508AC_DEMO_AS.iml" filepath="$PROJECT_DIR$/.idea/modules/T508AC_DEMO_AS.iml" group="T508AC_DEMO_AS" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="T508AC_DEMO_AS/app" />
+    </modules>
+  </component>
+</project>

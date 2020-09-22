@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/sp_msr"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/magneticcard_controller_btn_connect"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/magneticcard_controller_btn_disconnect"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/magneticcard_controller_btn_clear"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <RadioButton
+                android:id="@+id/rd_disencryptionmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/magneticcard_controller_rd_disencryptionmode"
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/rd_encryptionmode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/magneticcard_controller_rd_encryptionmode"
+                android:textSize="30sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sl_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:focusable="false"
+            android:id="@+id/et_read"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:textSize="30sp" />
+    </ScrollView>
+
+</LinearLayout>

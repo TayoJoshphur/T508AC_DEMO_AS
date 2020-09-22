@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_connect"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_disconnect"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_delete"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_clear"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_fingerprintrecord"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_fingerprintrecord"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_fingerprintquery"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_fingerprintquery"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_fingerreset"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/fingerprintrecognition_controller_btn_fingerreset"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fingerprintrecognition_controller_tv_result"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fingerprintrecognition_controller_tv_information"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_information"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</LinearLayout>

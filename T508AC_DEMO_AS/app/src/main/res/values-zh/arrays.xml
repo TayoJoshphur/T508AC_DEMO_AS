@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="port">
+        <item>ttyS2</item>
+    </string-array>
+    <string-array name="butrat">
+        <item>4800</item>
+        <item>9600</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+    <string-array name="mode_ne">
+        <item>不加密</item>
+        <item>加密</item>
+    </string-array>
+    <string-array name="stopbits">
+        <item>1</item>
+        <!-- <item>1.5</item> -->
+        <item>2</item>
+    </string-array>
+    <string-array name="bits">
+
+        <!--
+        <item>5</item>
+        <item>6</item>
+        -->
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="event">
+        <item>NONE</item>
+        <item>ODD</item>
+        <item>EVEN</item>
+    </string-array>
+    <string-array name="hz">
+        <item>1MHZ</item>
+        <item>2MHZ</item>
+        <item>3MHZ</item>
+        <item>4MHZ</item>
+        <item>6MHZ</item>
+        <item>12MHZ</item>
+    </string-array>
+    <string-array name="psam">
+        <item>psam1</item>
+        <item>psam2</item>
+    </string-array>
+    <string-array name="language">
+        <item>Unicode</item>
+        <item>波斯/阿拉伯语</item>
+        <item>GB2312</item>
+    </string-array>
+    <string-array name="commd">
+        <item>复位打印机</item>
+        <item>标准ASCII字体</item>
+        <item>压缩ASCII字体</item>
+        <item>字体不放大</item>
+        <item>宽高加倍</item>
+        <item>取消加粗模式</item>
+        <item>选择加粗模式</item>
+        <item>取消倒置打印</item>
+        <item>选择倒置打印</item>
+        <item>取消黑白反显</item>
+        <item>选择黑白反显</item>
+        <item>取消顺时针旋转90°</item>
+        <item>选择顺时针旋转90°</item>
+    </string-array>
+
+</resources>

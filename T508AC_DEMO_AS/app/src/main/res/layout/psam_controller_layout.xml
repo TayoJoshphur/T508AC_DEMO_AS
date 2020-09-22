@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_connect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/pinpad_controller_btn_connect"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_disconnect"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/pinpad_controller_btn_disconnect"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/sp_psam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/psam_controller_btn_reset"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="@string/psam_controller_tv_hz"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/sp_hz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_hz"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/psam_controller_btn_hz"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/et_send"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/psam_controller_et_send"
+            android:inputType="text"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/psam_controller_btn_send"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_read"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_read"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="@string/psam_controller_btn_read"
+            android:textSize="30sp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

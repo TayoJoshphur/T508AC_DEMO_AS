@@ -1,0 +1,292 @@
+<resources>
+
+
+    <!-- 蜂鸣器 -->
+    <string name="buzzer_controller_label">蜂鸣器</string>
+    <string name="buzzer_btn_open">打开</string>
+    <string name="buzzer_btn_close">关闭</string>
+
+    <!-- 激光灯 -->
+    <string name="laserlight_controller_label">激光灯</string>
+    <string name="laserlight_btn_open">打开</string>
+    <string name="laserlight_btn_close">关闭</string>
+
+    <!-- 钱箱 -->
+    <string name="cashbox_controller_label">钱箱</string>
+    <string name="cashbox_btn_controller">操作钱箱</string>
+
+    <!-- rs232串口 -->
+    <string name="rs232_controller_label">RS232串口</string>
+    <string name="rs232_controller_filetv">串口名</string>
+    <string name="rs232_controller_baudtv">波特率</string>
+    <string name="rs232_controller_bitstv">数据位</string>
+    <string name="rs232_controller_eventtv">校验位</string>
+    <string name="rs232_controller_stopbitstv">停止位</string>
+    <string name="rs232_controller_btn_connect">连接</string>
+    <string name="rs232_controller_btn_disconnect">断开</string>
+    <string name="rs232_controller_writetv">所写入数据</string>
+    <string name="rs232_controller_readtv">接收数据</string>
+    <string name="rs232_controller_btn_send">发送数据</string>
+    <string name="rs232_controller_btn_clean">清除数据</string>
+    <!-- 身份证 -->
+    <string name="idcard_controller_label">身份证</string>
+    <string name="idcard_controller_btn_connect">连接</string>
+    <string name="idcard_controller_btn_stop">停止</string>
+    <string name="idcard_controller_btn_readcard">单次读卡</string>
+    <string name="idcard_controller_btn_readcard_2">连续读卡</string>
+    <string name="idcard_controller_btn_disconnect">断开</string>
+    <string name="idcard_controller_tv_name">姓 名:</string>
+    <string name="idcard_controller_tv_sex">性 别 :</string>
+    <string name="idcard_controller_tv_ethnic">民 族:</string>
+    <string name="idcard_controller_tv_birth">出 生:</string>
+    <string name="idcard_controller_tv_address">住 址:</string>
+    <string name="idcard_controller_tv_idnumber">公民身份证号码:</string>
+    <string name="idcard_controller_btn_clear">清除</string>
+    <string name="idcard_controller_tv_authority">发证机关:</string>
+    <string name="idcard_controller_tv_period">有效期:</string>
+    <string name="sdtstatus">状态:</string>
+    <string name="idcard_count">次数:</string>
+    <string name="idcard_count_success">成功:</string>
+    <string name="idcard_count_failed">失败:</string>
+
+    <!-- IC卡 -->
+    <string name="iccard_controller_label">IC卡</string>
+    <string name="iccard_controller_btn_connect">连接</string>
+    <string name="iccard_controller_btn_disconnect">断开</string>
+    <string name="iccard_controller_btn_ic">IC卡</string>
+    <string name="iccard_controller_btn_at24">at24卡</string>
+    <string name="iccard_controller_btn_sle">sle卡</string>
+    <string name="iccard_controller_btn_version">版本号</string>
+    <string name="iccard_controller_ic_btn_reset">复位</string>
+    <string name="iccard_controller_ic_btn_icoff">关闭</string>
+    <string name="iccard_controller_ic_btn_read">读数据</string>
+    <string name="iccard_controller_at24_btn_reset">复位</string>
+    <string name="iccard_controller_at24_btn_write">写数据</string>
+    <string name="iccard_controller_at24_btn_read">读数据</string>
+    <string name="iccard_controller_ic_tv_label">ic卡</string>
+    <string name="iccard_controller_at24_tv_label">at24卡</string>
+    <string name="iccard_controller_sle_tv_label">sle卡</string>
+    <string name="iccard_controller_sle_btn_init">初始化</string>
+    <string name="iccard_controller_sle_btn_write">写数据</string>
+    <string name="iccard_controller_sle_btn_read">读数据</string>
+    <string name="iccard_controller_sle_btn_checkpassword">核对卡密码</string>
+    <string name="iccard_controller_sle_btn_readspassword">读取密码</string>
+    <string name="iccard_controller_sle_btn_rewritepassword">修改密码</string>
+    <string name="iccard_controller_sle_btn_readspasswordcounter">读出密码错误计数器</string>
+    <string name="iccard_controller_sle_btn_readflag">读保护位标志</string>
+    <string name="iccard_controller_sle_btn_protectiondata">保护指定地址的数据</string>
+    <string name="iccard_controller_sle_tv">~</string>
+    <!-- 密码键盘 -->
+    <string name="pinpad_controller_label">密码键盘</string>
+    <string name="pinpad_controller_btn_connect">连接</string>
+    <string name="pinpad_controller_btn_disconnect">断开</string>
+    <string name="pinpad_controller_btn_send">发送数据</string>
+    <string name="pinpad_controller_btn_recv">请输入密码</string>
+    <string name="pinpad_controller_btn_clear">清屏</string>
+    <string name="pinpad_controller_tv_version">版本信息</string>
+    <string name="pinpad_controller_init">初始化</string>
+    <string name="pinpad_controllerN20">N20</string>
+    <string name="pinpad_controllerSP10">SP10</string>
+    <string name="pinpad_controller_inits">恢复出厂设置成功</string>
+    <!-- psam卡 -->
+    <string name="psam_controller_label">PSAM卡</string>
+    <string name="psam_controller_ttyS0">ttyS0</string>
+    <string name="psam_controller_ttyS1">ttyS1(默认)</string>
+    <string name="psam_controller_ttyS2">ttyS2</string>
+    <string name="psam_controller_ttyS3">ttyS3</string>
+    <string name="psam_controller_btn_connect">连接</string>
+    <string name="psam_controller_btn_disconnect">断开</string>
+    <string name="psam_controller_btn_reset">复位</string>
+    <string name="psam_controller_btn_random">随机数</string>
+    <string name="psam_controller_tv_hz">频率</string>
+    <string name="psam_controller_tv_psam1">psam1</string>
+    <string name="psam_controller_tv_psam2">psam2</string>
+    <string name="psam_controller_btn_send">发送</string>
+    <string name="psam_controller_btn_read">接收</string>
+    <string name="psam_controller_btn_hz">设置频率</string>
+    <string name="psam_controller_et_send">00,84,00,00,04</string>
+    <!-- nfc -->
+    <string name="nfc_controller_label">NFC</string>
+    <string name="nfc_controller_tv_cardtype">卡类型:</string>
+    <string name="nfc_controller_tv_readdata">读到的数据:</string>
+    <string name="nfc_controller_tv_cardid">卡号:</string>
+    <string name="nfc_controller_tv_s50s70">s50/s70</string>
+    <string name="nfc_controller_btn_write">写数据</string>
+    <string name="nfc_controller_btn_read">读数据</string>
+    <string name="nfc_device_not_support">设备不支持NFC</string>
+    <string name="nfc_not_open_go_open">NFC没有开启，去开启</string>
+    <string name="nfc_not_open">NFC没有开启</string>
+    <string name="nfc_card_type">卡类型:</string>
+    <string name="nfc_card_number">卡号:</string>
+    <string name="nfc_card_info">卡信息:</string>
+    <string name="nfc_operate_fan">扇区操作:</string>
+    <string name="yes">是</string>
+    <string name="nfc_section_key">扇区密钥:</string>
+    <string name="nfc_read_section_data">读扇区数据</string>
+    <string name="nfc_data_readed">读到的数据:</string>
+    <string name="nfc_data_writting">要写入的数据:</string>
+    <string name="nfc_write_section_data">写扇区数据</string>
+    <string name="nfc_max_command_len">最大指令长度:</string>
+    <string name="nfc_manu">制造商:</string>
+    <string name="nfc_prof">协议信息:</string>
+    <string name="nfc_block_count">区块数:</string>
+    <string name="nfc_szt_money">金额:</string>
+    <!-- 打印 -->
+    <string name="printer_controller_label">打印</string>
+    <string name="printer_controller_btn_connect">连接</string>
+    <string name="printer_controller_btn_disconnect">断开</string>
+    <string name="printer_controller_btn_clear">清除</string>
+    <string name="printer_controller_btn_print">打印</string>
+    <string name="printer_controller_btn_printest">自检</string>
+    <string name="printer_controller_btn_printreset">复位</string>
+    <string name="printer_controller_btn_takethepaper">走纸</string>
+    <string name="printer_controller_btn_gray">打印灰度</string>
+    <string name="printer_controller_btn_fontnormalmode">正常字体</string>
+    <string name="printer_controller_btn_fontitalics">斜体</string>
+    <string name="printer_controller_btn_fontbold">加粗</string>
+    <string name="printer_controller_btn_fontdoublewidth">倍宽</string>
+    <string name="printer_controller_btn_fonttimes">倍高</string>
+    <string name="printer_controller_btn_fontunderline">下划线</string>
+    <string name="printer_controller_btn_setright">靠右</string>
+    <string name="printer_controller_btn_setleft">靠左</string>
+    <string name="printer_controller_btn_setcenter">居中</string>
+    <string name="printer_controller_btn_imagae">图片</string>
+    <string name="printer_controller_btn_ticket">打印小票</string>
+    <string name="printer_controller_btn_code">二维码</string>
+    <string name="printer_controller_btn_stringtocode">字符转二维码</string>
+    <string name="printer_controller_btn_cut">裁纸</string>
+    <string name="printer_controller_stringtocode">请输入字符</string>
+    <!-- 磁卡 -->
+    <string name="magneticcard_controller_label">磁卡</string>
+    <string name="magneticcard_controller_btn_connect">连接</string>
+    <string name="magneticcard_controller_btn_disconnect">断开</string>
+    <string name="magneticcard_controller_rd_disencryptionmode">非加密模式</string>
+    <string name="magneticcard_controller_rd_encryptionmode">加密模式</string>
+    <string name="magneticcard_controller_btn_clear">清除</string>
+    <!-- 指纹 -->
+    <string name="fingerprintrecognition_controller_label">指纹</string>
+    <string name="fingerprintrecognition_controller_btn_connect">连接</string>
+    <string name="fingerprintrecognition_controller_btn_disconnect">断开</string>
+    <string name="fingerprintrecognition_controller_btn_fingerreset">复位</string>
+    <string name="fingerprintrecognition_controller_btn_fingerprintrecord">指纹录入</string>
+    <string name="fingerprintrecognition_controller_btn_fingerprintquery">指纹识别</string>
+    <string name="fingerprintrecognition_controller_tv_result">处理结果:</string>
+    <string name="fingerprintrecognition_controller_tv_information">信息:</string>
+    <string name="fingerprintrecognition_controller_btn_delete">删除单个指纹</string>
+    <string name="fingerprintrecognition_controller_btn_clear">清空指纹</string>
+    <string name="fingerprintre_string_finger">请将手指放指纹收集区......</string>
+    <string name="fingerprintre_string_wait">正在收集请稍等.....！</string>
+    <string name="fingerprintre_string_recognition_success">指纹识别成功！</string>
+    <string name="fingerprintre_string_fingerprint_failed">指纹识别失败！</string>
+    <string name="fingerprintre_string_input_success">指纹录入成功！</string>
+    <string name="fingerprintre_string_input_failed">指纹录入失败！</string>
+    <string name="fingerprintre_string_empty_success">清空指纹成功！</string>
+    <string name="fingerprintre_string_empty_failed">清空指纹失败！</string>
+    <string name="fingerprintre_string_reset_success">复位成功！</string>
+    <string name="fingerprintre_string_reset_failed">复位失败！</string>
+    <string name="fingerprintre_string_deleted_successfully">指纹删除成功！</string>
+    <string name="fingerprintre_string_deletion_failed">指纹删除失败！</string>
+    <string name="fingerprintre_string_existed">指纹已存在!</string>
+    <string name="fingerprintre_string_full">指纹已满！</string>
+    <string name="CMD_RT_OK">指令执行完毕或OK</string>
+    <string name="CMD_RT_PACKGE_ERR">数据包接收错误,请重新操作</string>
+    <string name="CMD_RT_DEVICE_ADDRESS_ERR">设备地址错误,请重新操作</string>
+    <string name="CMD_RT_COM_PASSWORD_ERR">通信密码错误,请重新操作</string>
+    <string name="CMD_RT_NO_FINGER">传感器上没有手指,请重新操作</string>
+    <string name="CMD_RT_GET_IMAGE_FAILE">从传感器上获取图像失败,请重新操作</string>
+    <string name="CMD_RT_GEN_CHAR_ERR">生成特征失败,请重新操作</string>
+    <string name="CMD_RT_FINGER_MATCH_ERR">指纹不匹配,请重新操作</string>
+    <string name="CMD_RT_FINGER_SEARCH_FAILE">没搜索到指纹,请重新操作</string>
+    <string name="CMD_RT_MERGE_TEMPLET_FAILE">特征合并失败,请重新操作</string>
+    <string name="CMD_RT_ADDRESS_OVERFLOW">将模板存库时地址序号超出指纹库范围,请重新操作</string>
+    <string name="CMD_RT_READ_TEMPLET_ERR">从指纹库读模板出错,请重新操作</string>
+    <string name="CMD_RT_UP_TEMPLET_ERR">上传特征失败,请重新操作</string>
+    <string name="CMD_RT_UP_IMAGE_FAILE">上传图像失败,请重新操作</string>
+    <string name="CMD_RT_DELETE_TEMPLET_ERR">删除模板失败,请重新操作</string>
+    <string name="CMD_RT_CLEAR_TEMPLET_LIB_ERR">清空指纹库失败,请重新操作</string>
+    <string name="CMD_RT_FINGER_NOT_MOVE">残留指纹或传感器窗口的按指长时间未移开,请重新操作</string>
+    <string name="CMD_RT_NO_TEMPLET_IN_ADDRESS">指定位置没有有效模板,请重新操作</string>
+    <string name="CMD_RT_CHAR_REPEAT">指纹重复，需要注册的指纹已经在FLASH中注册,请重新操作</string>
+    <string name="CMD_RT_MB_NOT_EXIST_IN_ADDRESS">该地址中不存在指纹模板,请重新操作</string>
+    <string name="CMD_RT_GET_MBINDEX_OVERFLOW">获取模板索引长度溢出,请重新操作</string>
+    <string name="finger_br">BR6211</string>
+    <string name="finger_za">ZAZ010</string>
+    <!-- 立杆摄像头 -->
+    <string name="capture_controller_label">立杆摄像头</string>
+    <!--  -->
+    <string name="printer_printest">">>>>>>>>>>>>>>>>>>>>>>>>>\n80MM热敏打印机\n>>>>>>>>>>>>>>>>>>>>>>>>>\n\n默认波特率:12500\n\n支持字符集:Unicode\n\n程序版本:1.0"</string>
+    <string name="dincr">设备没打开，请重新打开!</string>
+    <string name="closeBluetooth">关闭蓝牙</string>
+    <string name="openBluetooth">打开蓝牙</string>
+    <string name="print">打印</string>
+    <string name="command">指令</string>
+    <string name="psi">请选择指令</string>
+    <string name="cf">连接失败!</string>
+    <string name="cs">连接成功!</string>
+    <string name="scf">设置指令失败!</string>
+    <string name="sf">发送失败!</string>
+    <string name="quit">退出</string>
+    <string name="Bluetooth">蓝牙打印</string>
+    <string name="Paired_devices">已配对设备</string>
+    <string name="Unpaired_devices">未配对设备</string>
+    <string name="Search_Equipment">搜索设备</string>
+    <string name="Please_wait">请稍等...</string>
+    <string name="Search">搜索蓝牙设备...</string>
+    <string name="info_not_16_byte">输入字符必须为32位</string>
+    <string name="hint_hex_16_byte">HEX, 16 bytes (e.g. 0A4F&#8230;)</string>
+    <string name="info_not_hex_data"> 错误：数据必须是十六进制（0-9和A-F）</string>
+    <string name="hint_hex_3_byte">HEX, 3 bytes</string>
+    <string name="hint_hex_00">00</string>
+    <string name="hint_int_423">e.g. 423</string>
+    <string name="uhf_read">读</string>
+    <string name="uhf_write">写</string>
+    <string name="info_success">成功</string>
+    <string name="info_failed">失败</string>
+    <string name="info_validation_success">验证成功</string>
+    <string name="info_validation_failed">验证失败</string>
+    <string name="nfc_background_support">在后台打开nfc</string>
+    <string name="nfc_block_read">读块数据</string>
+    <string name="nfc_block_write">写块数据</string>
+    <string name="nfc_lose_connect">the nfc lose connect , please touch again</string>
+    <string name="info_no_tag_found">错误：没有MIFARE标签</string>
+    <string name="nfc_put_card_again">请重新接触卡片</string>
+    <string name="action_read_write">读写S50/S70卡</string>
+    <string name="action_type">请选择方式</string>
+    <string name="action_bluetooth">蓝牙</string>
+    <string name="action_serialport">热敏打印</string>
+    <string name="action_photo">一,二维码图片</string>
+    <string name="action_capture">扫一,二维码</string>
+    <string name="action_prot_1">串口1</string>
+    <string name="action_prot_2">串口3</string>
+
+    <!-- 客显 -->
+    <string name="led_led">客显</string>
+    <string name="led_show_number">显示数字</string>
+    <string name="led_input_hint">请输入数字······</string>
+
+    <!-- Scan -->
+    <string name="capture_hint">扫描电子设备时,请将电子设备屏幕亮度调到最亮</string>
+    <string name="scan_hint">扫描电子设备时,请将电子设备屏幕亮度调到最亮</string>
+    <string name="scan_controller_label">扫描引擎</string>
+    <string name="ts">扫不到数据，请对准需要扫描的数据！</string>
+    <string name="scan">扫描</string>
+    <string name="clean">清空</string>
+    <string name="scan_one">单次扫描</string>
+    <string name="scan_stop_one">停止扫描</string>
+    <string name="scan_continue">连续扫描</string>
+    <string name="scan_stop_continue">停止连续扫描</string>
+    <string name="n">内部碗摄像头灯光控制</string>
+    <string name="j">激光灯控制</string>
+    <string name="msr_version">版本:</string>
+    <string name="pinpad_controller_bt_amountprompt">请输入金额</string>
+
+    <!-- Vanstone V10 键盘 -->
+    <string name="device_power_up">模块上电</string>
+    <string name="vanstone_v10_tips">未获取到通信通道，请点击连接按钮...</string>
+    <string name="device_connect">连接</string>
+    <string name="display_string">显示字符串</string>
+    <string name="clear_string">清屏</string>
+    <string name="get_pin_content">获取明文密码</string>
+    <string name="get_encrypt_pin_content">获取密文密码</string>
+    <string name="power_off">断开</string>
+</resources>

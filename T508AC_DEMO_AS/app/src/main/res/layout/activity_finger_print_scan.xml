@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo"
+            android:contentDescription="@string/todo" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#E1F4E6"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:paddingEnd="30dp"
+            android:paddingStart="20dp">
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textColor="#006533"
+                android:textSize="35sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/umar_kalu_lawal"
+                android:textColor="#006533"
+                android:textSize="40sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/photo"
+        android:layout_centerHorizontal="true"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="8dp"
+        app:contentPadding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#006533"
+                android:textSize="30sp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_fingerprint_icon"
+                android:contentDescription="@string/todo" />
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_connect"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Connect" />-->
+
+<!--            <Button-->
+<!--                android:id="@+id/btn_fingerprintrecord"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Record" />-->
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <Button
+        android:layout_below="@+id/card1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:padding="20dp"
+        android:textSize="30dp"
+        android:background="#E1F4E6"
+        android:id="@+id/btn_fingerprintquery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Retry" />
+</RelativeLayout>

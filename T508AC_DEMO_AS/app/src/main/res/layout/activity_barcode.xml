@@ -1,0 +1,170 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/scan_hint"
+            android:textSize="18sp"
+            android:textColor="@color/red" />
+        
+        <TextView
+            android:id="@+id/tv_codeid"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/black" />
+        
+        <ScrollView
+            android:id="@+id/scrollview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/main_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+        </ScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_Count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:visibility="visible" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/idcard_count"
+                android:textColor="@android:color/black"
+                android:textSize="30sp"/>
+
+            <TextView
+                android:id="@+id/tv_all_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/idcard_count_success"
+                android:textColor="@android:color/black"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tv_success_count"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/clean_bu"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:text="@string/clean"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            
+             <Button
+                android:id="@+id/open_bu3"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:onClick="onClick"
+                android:text="@string/iccard_controller_btn_connect"
+                android:visibility="gone"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/start_bu1"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                 android:layout_marginLeft="50dp"
+                android:onClick="onClick"
+                android:text="@string/scan_one"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/stop_bu2"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:layout_marginLeft="50dp"
+                android:onClick="onClick"
+                android:text="@string/scan_stop_one"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/close_bu4"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:onClick="onClick"
+                android:text="@string/iccard_controller_btn_disconnect"
+                android:textSize="30dp" 
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/start_continue"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:layout_marginLeft="50dp"
+                android:onClick="onClick"
+                android:text="@string/scan_continue"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/stop_continue"
+                android:layout_width="250dip"
+                android:layout_height="90dip"
+                android:layout_marginLeft="50dp"
+                android:onClick="onClick"
+                android:text="@string/scan_stop_continue"
+                android:textSize="30dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
