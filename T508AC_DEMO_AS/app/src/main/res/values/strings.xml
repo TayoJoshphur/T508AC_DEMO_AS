@@ -297,13 +297,21 @@
     <string name="power_off">Disconnect</string>
     <string name="vanstone_v10_tips">You should click CONNECT Button first!</string>
 
+    <!-- VoterCard Activity -->
+    <string name="independent_national">Independent National</string>
+    <string name="electoral_commission">Electoral Commission</string>
+    <string name="nigeria_general_elections">Nigeria General Elections</string>
+    <string name="scan_your_voters_card_to_begin">Scan your Voter Card to begin</string>
+    <string name="processing_your_voters_card">processing your voters’ card</string>
+    <string name="polling_unit_area_1_sect_1_area_1_pri_sch">POLLING UNIT AREA 1 SECT 1/AREA 1 PRI. SCH</string>
+    <string name="city_center_abuja_municipal_federal_capital_territory">CITY CENTER - ABUJA MUNICIPAL -FEDERAL CAPITAL TERRITORY</string>
     <!-- FingerPrint Activity -->
     <string name="finger_controller_label">FingerScan</string>
     <string name="finger_fp">FPS</string>
-
     <string name="todo">TODO</string>
     <string name="welcome">Welcome</string>
     <string name="umar_kalu_lawal">UMAR KALU LAWAL</string>
     <string name="scan_your_fingerprint_to_verify_it_is_you">Scan your <strong>Fingerprint</strong> to verify it is you</string>
     <string name="processing_you_fingerprint"><b>Please wait ...</b>\n processing you fingerprint</string>
+    <string name="swipe_up_or_press_more_button_to_see_more_parties_you_can_also_press_the_first_letter_of_your_party_s_name_below_to_find_it_faster">swipe up or press more button to see more parties you can also press the first letter of your party name below to find it faster</string>
 </resources>

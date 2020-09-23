@@ -40,6 +40,7 @@ import com.POS.apis.LaserlightController.LaserlightControllerActivity;
 import com.POS.apis.LedControllers.LedControllerActivity;
 import com.POS.apis.MagnetCardController.MagnetCardControllerActivity;
 import com.POS.apis.NFCController.NFCControllerActivity;
+import com.POS.apis.NFCController.VoterCardActivity;
 import com.POS.apis.PINPadController.N20PINPadControllerActivity;
 import com.POS.apis.PINPadController.PP300PinPadControllerActivity;
 import com.POS.apis.PINPadController.SP10PINPadControllerActivity;
@@ -201,9 +202,12 @@ public class ApiDemosMainActivity extends Activity implements
 		addItem(myData,
 				getResources().getString(R.string.iccard_controller_label),
 				new Intent(this, ICcardControllerActivity.class));
+//		addItem(myData,
+//				getResources().getString(R.string.nfc_controller_label),
+//				new Intent(this, NFCControllerActivity.class));
 		addItem(myData,
 				getResources().getString(R.string.nfc_controller_label),
-				new Intent(this, NFCControllerActivity.class));
+				new Intent(this, VoterCardActivity.class));
 		addItem(myData,
 				getResources().getString(R.string.printer_controller_label),
 				new Intent(this, PrinterControllerActivity.class));

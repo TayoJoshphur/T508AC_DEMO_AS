@@ -3,6 +3,7 @@ package com.POS.apis.FingerprintController;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -183,7 +184,7 @@ public class FingerPrintScanActivity extends Activity implements
                 } else {
                     sendMessage(getResources().getString(
                             R.string.fingerprintre_string_recognition_success));
-
+                    gotoDashboard();
                 }
             }
         }.start();
@@ -361,5 +362,11 @@ public class FingerPrintScanActivity extends Activity implements
         } else {
             Toast.makeText(this, "connect_failure", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    public void gotoDashboard() {
+        Intent intent = new Intent(this, Dashboard.class);
+        startActivity(intent);
+
     }
 }
